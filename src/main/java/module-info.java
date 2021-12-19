@@ -6,7 +6,7 @@ module me.cxii112.comboard {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
 
-    requires coreapi;
+    requires jinput;
 
     opens me.cxii112.comboard to javafx.fxml;
     exports me.cxii112.comboard;
